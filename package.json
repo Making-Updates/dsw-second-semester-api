@@ -1,0 +1,27 @@
+{
+	"name": "dsw-semester-two-backend",
+	"version": "1.0.0",
+	"description": "",
+	"keywords": [],
+	"license": "MIT",
+	"main": "src/index.js",
+	"scripts": {
+		"start": "node src/index.js"
+	},
+	"dependencies": {
+		"axios": "^0.21.1",
+		"cors": "^2.8.5",
+		"dotenv": "^10.0.0",
+		"express": "^4.17.1",
+		"http-errors": "^1.8.0",
+		"node-fetch": "^2.6.1",
+		"pino": "^6.13.0",
+		"pino-http": "^5.6.0",
+		"pino-pretty": "^5.1.2",
+		"rss-feed-emitter": "^3.2.2",
+		"twit": "^2.2.11",
+		"xml-js": "^1.6.11",
+		"xml2js": "^0.4.23",
+		"youtube-dl-exec": "^1.2.4"
+	}
+}
